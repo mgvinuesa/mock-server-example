@@ -1,0 +1,54 @@
+[
+  {
+    "httpRequest": {
+      "path": "/firstExampleExpectation"
+    },
+    "httpResponse": {
+      "body": "some response"
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/secondExampleExpectation"
+    },
+    "httpResponse": {
+      "body": "some response"
+    }
+  },
+  {
+    "httpRequest": {
+		"operationId": "listPets",
+        "specUrlOrPayload": "file:/config/openapi_petstore_example.json"
+    },
+    "httpResponse": {
+        "body": "response listPets"
+    }
+  },
+  {
+    "httpRequest": {
+		"operationId": "createPets",
+        "specUrlOrPayload": "file:/config/openapi_petstore_example.json"
+    },
+    "httpResponse": {
+        "body": "response createPets"
+    }
+  },
+  {
+    "httpRequest": {
+		"operationId": "showPetById",
+        "specUrlOrPayload": "file:/config/openapi_petstore_example.json"
+    },
+    "httpResponse": {
+        "body": "response showPetById"
+    }
+  },
+  {
+    "httpRequest": {
+		"operationId": "somePath",
+        "specUrlOrPayload": "file:/config/openapi_petstore_example.json"
+    },
+    "httpResponse": {
+        "body": "response somePath"
+    }
+  }
+]
