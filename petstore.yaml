@@ -80,9 +80,10 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Pet"
-              example:
-                id: 1
-                name: Tom
+              examples:
+                Tom:
+                  id: 1
+                  name: "Tom"
         default:
           description: unexpected error
           content:
