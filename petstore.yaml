@@ -80,8 +80,7 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Pet"
-              examples:
-                Tom:
+              example:
                   id: 1
                   name: "Tom"
         default:
